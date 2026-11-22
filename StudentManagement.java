@@ -1,5 +1,5 @@
 public class StudentManagement {
     public static void main(String[] args) {
-        System.out.println("Student Records Management System");
+        System.out.println("Welcome to Student Management System!");
     }
 }
