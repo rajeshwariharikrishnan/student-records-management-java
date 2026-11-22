@@ -37,6 +37,32 @@ public class StudentManagement {
         double average = (marks + marks2 + marks3 + marks4 + marks5) / 5.0;
 
         System.out.println("Average Marks: " + average);
+    int highest = marks;
+
+String topper = name;
+
+if (marks2 > highest) {
+    highest = marks2;
+    topper = name2;
+}
+
+if (marks3 > highest) {
+    highest = marks3;
+    topper = name3;
+}
+
+if (marks4 > highest) {
+    highest = marks4;
+    topper = name4;
+}
+
+if (marks5 > highest) {
+    highest = marks5;
+    topper = name5;
+}
+
+System.out.println("Highest Scorer: " + topper);
+System.out.println("Highest Marks: " + highest);
     }
 }
 
